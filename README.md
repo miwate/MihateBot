@@ -17,3 +17,10 @@ In the ```.env``` file, paste your :
 In the ```main.py``` file, paste your :
 - Discord role id after the ```role_id```
 - Discord text channel name after the ```verify_channel```
+
+## Dependencies
+In your terminal, install the following dependencies using [pip](https://pypi.org/project/pip/).
+- [discord](https://pypi.org/project/discord.py/)
+- [typing](https://pypi.org/project/typing/)
+- [ossapi](https://pypi.org/project/ossapi/)
+- [python-dotenv](https://pypi.org/project/python-dotenv/)
