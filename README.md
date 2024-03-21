@@ -9,10 +9,10 @@ This program uses the python wrapper for osu! [Ossapi](https://tybug.github.io/o
 - Create a new OAuth Application on your [osu! settings](https://osu.ppy.sh/home/account/edit).
   Application callback URL is set to ```http://localhost:4242``` as an example.
 
-In the ```.env``` file, paste your :
-- Discord application token after ```DISCORD_TOKEN```. You can create one on the [Developper portal](https://discord.com/developers/applications) page
-- osu! OAuth secret id after the ```CLIENT_ID```
-- osu! OAuth secret client after the ```CLIENT_SECRET```
+Create a new file called ```.env``` file, paste your :
+- Discord application token after ```DISCORD_TOKEN=```. You can create one on the [Developper portal](https://discord.com/developers/applications) page
+- osu! OAuth secret id after the ```CLIENT_ID=```
+- osu! OAuth secret client after the ```CLIENT_SECRET=```
 
 ## Discord
 In the ```main.py``` file, paste your :
